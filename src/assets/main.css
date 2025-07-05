@@ -1,0 +1,45 @@
+@import url("../../node_modules/@blocknote/core/src/fonts/inter.css");
+@import url("../../node_modules/@blocknote/core/src/style.css");
+
+.bn-editor {
+  padding-left: 0px !important;
+  margin-top: 0px !important;
+}
+:root {
+  --sl-content-inline-start: 0 !important;
+}
+.bn-container {
+  --bn-colors-editor-text: var(--sl-color-white) !important;
+  --bn-colors-editor-background: var(--sl-color-bg) !important;
+  --bn-colors-menu-text: var(--sl-color-white) !important;
+  --bn-colors-menu-background: #1f1f1f;
+  --bn-colors-tooltip-text: var(--sl-color-white) !important;
+  --bn-colors-tooltip-background: #161616;
+  --bn-colors-hovered-text: var(--sl-color-white) !important;
+  --bn-colors-hovered-background: #161616;
+  --bn-colors-selected-text: var(--sl-color-white) !important;
+  --bn-colors-selected-background: #0f0f0f;
+  --bn-colors-disabled-text: #3f3f3f;
+  --bn-colors-disabled-background: #161616;
+  --bn-colors-shadow: #0f0f0f;
+  --bn-colors-border: #161616;
+  --bn-colors-side-menu: #7f7f7f;
+  --bn-colors-highlights-gray-text: #bebdb8;
+  --bn-colors-highlights-gray-background: #9b9a97;
+  --bn-colors-highlights-brown-text: #8e6552;
+  --bn-colors-highlights-brown-background: #64473a;
+  --bn-colors-highlights-red-text: #ec4040;
+  --bn-colors-highlights-red-background: #be3434;
+  --bn-colors-highlights-orange-text: #e3790d;
+  --bn-colors-highlights-orange-background: #b7600a;
+  --bn-colors-highlights-yellow-text: #dfab01;
+  --bn-colors-highlights-yellow-background: #b58b00;
+  --bn-colors-highlights-green-text: #6b8b87;
+  --bn-colors-highlights-green-background: #4d6461;
+  --bn-colors-highlights-blue-text: #0e87bc;
+  --bn-colors-highlights-blue-background: #0b6e99;
+  --bn-colors-highlights-purple-text: #8552d7;
+  --bn-colors-highlights-purple-background: #6940a5;
+  --bn-colors-highlights-pink-text: #da208f;
+  --bn-colors-highlights-pink-background: #ad1a72;
+}
